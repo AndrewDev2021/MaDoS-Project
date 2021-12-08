@@ -1,4 +1,6 @@
-﻿namespace StoreProjectPD_34
+﻿using StoreProjectPD_34.Models.Common;
+
+namespace StoreProjectPD_34.Models
 {
     class HR : Person, IId
     {

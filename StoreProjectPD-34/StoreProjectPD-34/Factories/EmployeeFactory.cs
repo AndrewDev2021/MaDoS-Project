@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using StoreProjectPD_34.Models;
+using System.Collections.Generic;
 
-namespace StoreProjectPD_34
+namespace StoreProjectPD_34.Factories
 {
     class EmployeeFactory
     {

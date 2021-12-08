@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StoreProjectPD_34
+namespace StoreProjectPD_34.Models
 {
     class Person
     {
@@ -19,7 +19,7 @@ namespace StoreProjectPD_34
 
         public override string ToString()
         {
-            return String.Format(Name + " " + SurName + " " + Age);
+            return string.Format(Name + " " + SurName + " " + Age);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace StoreProjectPD_34
+﻿namespace StoreProjectPD_34.Models.Common
 {
     interface IId
     {

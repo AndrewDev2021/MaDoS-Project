@@ -1,7 +1,9 @@
-﻿using System;
+﻿using StoreProjectPD_34.Models;
+using StoreProjectPD_34.Services;
+using System;
 using System.Linq;
 
-namespace StoreProjectPD_34
+namespace StoreProjectPD_34.UI
 {
     class HR_UI
     {
@@ -9,7 +11,7 @@ namespace StoreProjectPD_34
 
         public HR_UI(HRService hRService)
         {
-            this._hRService = hRService;
+            _hRService = hRService;
         }
 
         public void CreateEmployee()

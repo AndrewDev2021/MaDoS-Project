@@ -1,8 +1,9 @@
-﻿using Modeling_and_Project_Software;
+﻿using StoreProjectPD_34.Factories;
+using StoreProjectPD_34.Models;
 using System;
 using System.Text;
 
-namespace StoreProjectPD_34
+namespace StoreProjectPD_34.Database
 {
     class DB
     {

@@ -1,6 +1,7 @@
-﻿using System;
+﻿using StoreProjectPD_34.Models.Common;
+using System;
 
-namespace StoreProjectPD_34
+namespace StoreProjectPD_34.ViewModels
 {
     public class EmploeeView : IId
     {
@@ -11,7 +12,7 @@ namespace StoreProjectPD_34
 
         public override string ToString()
         {
-            return String.Format(Id +" " + Name + " " + SurName + " " + Age);
+            return string.Format(Id + " " + Name + " " + SurName + " " + Age);
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Modeling_and_Project_Software
+namespace StoreProjectPD_34.Database
 {
     internal interface IDBItem<T>
     {

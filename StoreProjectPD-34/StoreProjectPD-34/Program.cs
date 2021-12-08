@@ -1,4 +1,7 @@
-﻿using System;
+﻿using StoreProjectPD_34.Database;
+using StoreProjectPD_34.Services;
+using StoreProjectPD_34.UI;
+using System;
 
 namespace StoreProjectPD_34
 {
