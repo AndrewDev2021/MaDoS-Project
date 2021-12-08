@@ -1,15 +1,14 @@
 ﻿using Modeling_and_Project_Software;
 using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace StoreProjectPD_34
 {
-    class HRService
+    class HRService : CommonService
     {
         private readonly DB _dB;
 
-        public HRService(DB dB)
+        public HRService(DB dB) : base(dB)
         {
             _dB = dB;
         }

@@ -6,9 +6,9 @@ namespace StoreProjectPD_34
 {
     class Person
     {
-        protected string Name { get; set; }
-        protected string SurName { get; set; }
-        protected int Age { get; set; }
+        public string Name { get; set; }
+        public string SurName { get; set; }
+        public int Age { get; set; }
 
         public Person(string Name, string SurName, int Age)
         {
