@@ -6,8 +6,9 @@ namespace StoreProjectPD_34
     {
         public static IEnumerable<Emploee> GetEmploees()
         {
-            yield return new Emploee("Bohdan", "Kolav", 23);
+            yield return new Emploee("Bohdan", "Kolav", 19);
             yield return new Emploee("Andrey", "Pob", 18);
+            yield return new Emploee("Yaroslav", "Mudriy", 21);
         }
     }
 }
