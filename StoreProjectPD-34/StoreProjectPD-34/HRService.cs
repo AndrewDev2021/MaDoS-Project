@@ -9,9 +9,9 @@ namespace StoreProjectPD_34
     {
         private readonly DB _dB;
 
-        public HRService()
+        public HRService(DB dB)
         {
-            _dB = new DB();
+            _dB = dB;
         }
 
         public void CreateHR(HR hr)
