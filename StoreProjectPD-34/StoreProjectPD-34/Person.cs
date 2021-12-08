@@ -10,7 +10,7 @@ namespace StoreProjectPD_34
         protected string SurName { get; set; }
         protected int Age { get; set; }
 
-        public Person(String Name, String SurName, int Age)
+        public Person(string Name, string SurName, int Age)
         {
             this.Name = Name;
             this.SurName = SurName;
